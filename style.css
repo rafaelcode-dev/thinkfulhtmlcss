@@ -1,0 +1,77 @@
+header {
+  text-align:center;
+  background-color: #747274; 
+  font-family: monospace;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  line-height:10px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  
+}
+/* ^^ adjusts the heading size and color*/
+
+body {
+  background-color:#7c90a0;
+  margin:0px;
+}
+/* ^^ adjusts the body color */
+/* places the main content in the center*/
+main {
+  text-align:center;
+}
+
+/*placed around the divs to style the section*/
+.wrapper{
+  width: 300px;
+  margin:auto;
+ 
+}
+
+/* these are necessary for the lists to display properly*/
+ul {
+  display:inline-block;
+  text-align:left;
+}
+
+ol {
+  display:inline-block;
+  text-align: left;
+}
+
+/* changes the font for all divs*/
+div {
+  font-family:monospace;
+}
+/* styles the links*/
+a:link {
+  color:black;
+}
+a:active {
+  color:black;
+}
+a:visited {
+  color:black;
+}
+a:hover {
+  color:white;
+}
+footer {
+  text-align: center;
+  padding-top: 1px;
+  padding-bottom:10px;
+  background-color: #747274;
+  margin-top:30px;
+  line-height: 1px;
+  font-size: 13px;
+
+}
+
+hr {
+  border:black solid 1px;
+}
+img {
+  padding-top:20px;
+  height:175px;
+}
+
